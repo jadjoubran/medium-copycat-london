@@ -1,0 +1,70 @@
+body{
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: 'Raleway', sans-serif;
+}
+
+.banner{
+	background-image: url('https://unsplash.it/1000/600?image=0');
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	text-align: center;
+}
+
+.banner h1{
+	margin-top: 0;
+	padding-top: 225px;
+	font-size: 40px;
+}
+
+.banner h1,
+.banner p{
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.container{
+	width: 700px;
+	margin: 0 auto;
+}
+
+h3{
+	color: #969696;
+}
+
+.highlighted{
+	background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+	text-decoration: none;
+}
+
+.highlighted:hover{
+	background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+@media (max-width: 700px){
+	.container{
+		width: 500px;
+	}
+}
+
+@media (max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+@media (max-width: 499px){
+	.container{
+		width: 98%;
+	}
+}
+
